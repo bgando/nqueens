@@ -1,3 +1,15 @@
+// Directions:
+// Given a n x n chessboard with n queens(or rooks), how can you arrange them such that they do not threaten one another.
+
+// There are two approaches, you can find the number of solutions possible or you can find a specific solution.
+
+// These are helper functions that you can use to solve nqueens. There are many ways to solve nqueens, and this is a just a little insight into one way to solve it.
+
+// Levels:
+// Beginners : Solve for nRooks
+// Intermediate: Solve for nQueens
+// Advanced: Find an solution without using these helper functions!
+
   var helpers = { 
   rows: function(){
     return _(_.range(this.get('n'))).map(function(rowIndex){
